@@ -13,7 +13,7 @@ public class Main {
 
 
         try {
-            String botToken = "8330544118:AAEg6Q3jo3wGygviHgw5V1qVngwrKQgnM0k";
+            String botToken = "";
             TelegramBotsLongPollingApplication botsApplication = new TelegramBotsLongPollingApplication();
             botsApplication.registerBot(botToken, new TelegramBot(botToken));
         } catch (TelegramApiException e) {
